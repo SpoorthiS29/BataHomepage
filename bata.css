@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(235, 231, 231);
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+}
+
+#nav1{
+    width: 10%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#nav3{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav2>h3{
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+header{
+    height: 620px;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwccc71970/utility/Hero%20Banner%20Desktop%20Bata%20Comfit%203840x2160.jpg?sw=2560&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;                     
+}
+
+#twoimg{
+    height: 940px;
+    width: 100%;
+    display: flex;
+}
+
+#twoimg>div{
+    height: 900px;
+    width: 50%;
+}
+
+#twoimg>div:first-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwab52ab19/menu/desk_editorials_banner_1A_bata.jpg?sw=1920&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 0;
+}
+
+#twoimg>div>div{
+    position: relative;
+}
+
+#twoimg a{
+    color: white;
+    text-decoration: 2px solid white underline;
+}
+
+#links1{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#twoimg h4{
+    text-transform: uppercase;
+    background-color: red;
+    padding: 5px;
+    font-size: 13px;
+}
+
+#twoimg>div:last-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw970c0dd6/menu/banner2_desktop.jpg?sw=1920&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 0;
+}
+
+#links2{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    position: absolute;
+    top: 50px;
+}
+
+#threeimg{
+    height: 930px;
+    width: 100%;
+    display: flex;
+}
+
+#threeimg>div{
+    height: 900px;
+    width: 33.33%;
+}
+
+#threeimg>div:first-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw197bb3ae/menu/desk_editorials_banner_3_bata%20-%20men.jpg?sw=1280&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+#threeimg>div:nth-child(2){
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw877355fa/menu/desk_editorials_banner_2_bata%20-%20women.jpg?sw=1280&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+#threeimg>div:last-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw33473e75/menu/desk_editorials_banner_4_kids_bata-1.jpg?sw=1280&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+
+#threeimg>div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: 1px solid white underline;
+}
+
+#threeimg>div>div{
+    position: absolute;
+    color: white;
+    width: 90%;
+    text-align: center;
+}
+
+#threeimg h1{
+    font-size: 35px;
+}
+
+#threeimg>div>div>a{
+    position: absolute;
+    top: 120px;
+    font-size: 23px;
+    text-decoration: 1px solid white underline;
+}
+
+#striker{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+#striker>div{
+    height: 800px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#striker>div:first-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw704322a9/menu/NS-2-Editorial-banner-2-columns-Desktop-1920x2276.jpg?sw=1920&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    text-align: center;
+}
+
+#striker h4{
+    background-color: gray;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#striker h1{
+    font-size: 40px;
+    letter-spacing: -2px;
+    position: absolute;
+    top: 420px;
+    left: 220px;
+}
+
+#striker>div:first-child>div>a{
+    position: absolute;
+    top: 520px;
+    left: 300px;
+    text-decoration: 1px solid white underline;
+}
+
+#striker>div:last-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwda6eae8c/utility/1920x2276.jpg?sw=1920&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#striker>div:last-child>div{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#shoes>h2{
+    margin: 20px;
+}
+
+#shoes>div{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#shoes>div>div{
+    height: 550px;
+    width: 25%;
+    margin: 2px;
+    /* background-color: rgb(222, 218, 218); */
+    position: relative;
+}
+
+#shoes>div>div:first-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw3e103f57/images/tile/8396212_2.jpeg?sw=960");
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+}
+
+#shoes>div>div:nth-child(2){
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwb6553716/images/tile/8714291_2.jpeg?sw=960");
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+}
+
+#shoes>div>div:nth-child(3){
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwa887770d/images/tile/8614067_2.jpeg?sw=960");
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+}
+
+#shoes>div>div:last-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw9c0fcdaf/images/tile/8714478_2.jpeg?sw=960");
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+}
+
+#shoes>div>div>div:first-child{
+    display: flex;
+    width: 90%;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#shoes>div>div>div:last-child{
+    padding: 5px;
+    position: absolute;
+    bottom: 8px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+#hovers{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+#hovers>div{
+    height: 350px;
+    width: 33.33%;
+    background-color: rgb(190, 46, 6);
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    transition: all 1s linear 0s;
+}
+
+#hovers>div:first-child, #hovers>div:last-child{
+    background-color: rgb(181, 7, 7);
+}
+
+#hovers>div:first-child:hover{
+    background-color: rgb(69, 3, 3);
+    transform: scale(0.99,1);
+}
+
+#hovers>div:last-child:hover{
+    background-color: rgb(69, 3, 3);
+    transform: scale(0.99,1);
+}
+
+#hovers>div:nth-child(2):hover{
+    background-color: rgb(126, 32, 6);
+    transform: scale(0.99,1);
+}
+
+#compress{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+}
+
+#compress>div{
+    height: 300px;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    transition: all 1s ease 0s;
+}
+
+#compress>div:first-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwd7b061b4/PLP/1-floats.jpg?sw=504&q=80");
+    background-repeat: no-repeat;
+    background-size: 103% 300px;
+}
+
+#compress>div:first-child:hover{
+    transform: scale(0.97, 0.97);
+}
+
+#compress>div:nth-child(2){
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwaa78c2e5/PLP/2-nine-west.jpg?sw=504&q=80");
+    background-repeat: no-repeat;
+    background-size: 103% 300px;
+}
+
+#compress>div:nth-child(2):hover{
+    transform: scale(0.97, 0.97);
+}
+
+#compress>div:last-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw5ffccf56/menu/HP-1-Editorial-banner-low-2-columns-Desktop-1280x854.jpg?sw=1280&q=80");
+    background-repeat: no-repeat;
+    background-size: 103% 300px;
+}
+
+#compress>div:last-child:hover{
+    transform: scale(0.97, 0.97);
+}
+
+#coll{
+    height: 600px;
+    width: 100%;
+}
+
+#coll>h2{
+    margin: 30px;
+}
+
+#coll>div{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+#coll>div>div{
+    height: 500px;
+    width: 25%;
+    margin: 2px;
+    background-color: aquamarine;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -5px;
+    text-align: center;
+    transition: all 1s ease 0s;
+}
+
+#coll>div>div:first-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dwd89ddba3/Hero%20Banner%20Slider/960x1280-px-(-Desktop-10by10-sneaker-collection).jpg?sw=640&q=80");
+    background-repeat: no-repeat;
+    background-size: 103% 500px;
+}
+
+#coll>div>div:first-child:hover{
+    transform: scale(0.97, 0.97);
+}
+
+#coll>div>div:nth-child(2){
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw8388a231/Hero%20Banner%20Slider/960x1280-px-(Desktop---10by10-Wedding-collection).jpg?sw=640&q=80");
+    background-repeat: no-repeat;
+    background-size: 103% 500px;
+}
+
+#coll>div>div:nth-child(2):hover{
+    transform: scale(0.97, 0.97);
+}
+
+#coll>div>div:nth-child(3){
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw9cafc3b7/Hero%20Banner%20Slider/960x1280-px-(Desktop---Exclusive-online).jpg?sw=640&q=80");
+    background-repeat: no-repeat;
+    background-size: 103% 500px;
+}
+
+#coll>div>div:nth-child(3):hover{
+    transform: scale(0.97, 0.97);background-size: 100% 497px;
+}
+
+#coll>div>div:last-child{
+    background-image: url("https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-Library/default/dw35b215b3/Hero%20Banner%20Slider/960x1280-px-(Desktop---Exclusive-online-2).jpg?sw=640&q=80");
+    background-repeat: no-repeat;
+    background-size: 103% 500px;
+}
+
+#coll>div>div:last-child:hover{
+    transform: scale(0.97, 0.97);
+}
+
+footer{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+footer>div:first-child{
+    height: 90%;
+    width: 95%;
+}
+
+/* footer>div:last-child{
+    height: 10%;
+    width: 95%;
+    border-top: 2px solid rgb(198, 196, 196);
+} */
+
+footer>div{
+    margin-left: 40px;
+}
+
+footer>div:first-child{
+    position: relative;
+    width: 40%;
+}
+
+footer>div:first-child>div:first-child{
+    position: absolute;
+    top: 150px;
+}
+
+footer>div:first-child>div:first-child>div{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: red;
+}
+
+#footer>div:first-child>div>h1{
+    color: red;
+    font-size: 30px;
+}
+
+#head{
+    color: red;
+    font-size: 40px;
+}
+
+#icolink{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+}
+
+#icolink a{
+    color: black;
+    text-decoration: none;
+}
+
+#lists{
+    display: flex;
+    height: 600px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#lists>div{
+    width: 25%;
+}
+
+nav a{
+    color: black;
+}
+
+#lists li{
+    list-style: none;
+}
+
+#lists h3{
+    color: gray;
+    font-size: 15px;
+}
+
+#lists>div:first-child{
+    position: absolute;
+    top: 150px;
+}
+
+#lists>div:nth-child(2){
+    position: absolute;
+    top: 150px;
+    left: 170px;
+}
+
+#lists>div:nth-child(3){
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+
+#lists>div:last-child{
+    position: absolute;
+    top: 150px;
+    right: 10px;
+}
+
+#last{
+    height: 70px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+}
+
+#copy{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    position: absolute;
+    bottom: 5px;
+    border-top: 1px solid gray;
+}
